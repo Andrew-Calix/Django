@@ -5,3 +5,17 @@ Chapter 2:
 command to apply all available migrations: 
 $ python manage.py migrate
 
+To start an app called pages: 
+(.venv) $ python manage.py startapp pages
+
+GIT:
+
+- git init
+- create .gitignore
+- write .venv/
+- save it
+
+But we do want a record of packages installed in our virtual environment
+Best Practice:
+
+(.venv) $ pip freeze > requirements.txt
