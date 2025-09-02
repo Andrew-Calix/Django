@@ -1,0 +1,13 @@
+DJANGO FOR BEGINNERS:
+
+Chapter 3:
+
+
+Even though we added a new app, Django will not recognize it until we update
+the INSTALLED_APPS setting within django_project/settings.py. 
+
+This is a Django best practice to create templates in this manner:
+
+(.venv) $ mkdir pages/templates
+(.venv) $ mkdir pages/templates/pages
+
