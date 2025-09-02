@@ -1,5 +1,7 @@
 DJANGO FOR BEGINNERS:
 
+CHAPTER 1:
+
 Virtual Environment : python -m venv <name_of_env> 
 
 python -m venv .venv
@@ -8,3 +10,4 @@ Once created, a virtual environment must be activated. On Windows, there is a
 one-time additional step of setting an Execution Policy to enable running scripts.
 
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
