@@ -1,0 +1,7 @@
+DJANGO FOR BEGINNERS:
+
+Chapter 2:
+
+command to apply all available migrations: 
+$ python manage.py migrate
+
