@@ -17,3 +17,7 @@ Inside the folder helloworld:
 
 (.venv) $ django-admin startproject django_project .
 
+
+To Launch the built in server:
+
+(.venv) $ python manage.py runserver
