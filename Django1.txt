@@ -11,3 +11,9 @@ one-time additional step of setting an Execution Policy to enable running script
 
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
+To create a new project (called Django project) :
+
+Inside the folder helloworld:
+
+(.venv) $ django-admin startproject django_project .
+
