@@ -11,6 +11,9 @@ one-time additional step of setting an Execution Policy to enable running script
 
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
+Then get into the virtual environment: 
+.venv\Scripts\Activate.ps1
+
 To create a new project (called Django project) :
 
 Inside the folder helloworld:
@@ -21,3 +24,4 @@ Inside the folder helloworld:
 To Launch the built in server:
 
 (.venv) $ python manage.py runserver
+
