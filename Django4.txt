@@ -1,0 +1,36 @@
+DJANGO FOR BEGINNERS:
+
+Chapter 4: 
+
+Our initial setup should start to feel familiar now and contains the following
+steps:
+
+- make a new directory for our code called company and navigate into it
+- create a new virtual environment called .venv and activate it
+- install Django and Black
+- create a new Django project called django_project
+- create a new app called pages
+
+Shell:
+
+$ cd onedrive\desktop\code
+$ mkdir company
+$ cd company
+$ python -m venv .venv
+$ .venv\Scripts\Activate.ps1
+(.venv) $
+
+(.venv) $ python -m pip install django~=5.0.0
+(.venv) $ python -m pip install black
+(.venv) $ django-admin startproject django_project .
+(.venv) $ python manage.py startapp pages
+
+Add "pages" app to settings.py
+
+Initialize the database with migrate and start the local web server with runserver.
+
+(.venv) $ python manage.py migrate
+(.venv) $ python manage.py runserver
+
+to TEMPLATES in settings.py, add this: "DIRS": [BASE_DIR/"templates"],
+
